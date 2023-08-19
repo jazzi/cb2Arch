@@ -1,0 +1,17 @@
+# /etc/exports - exports(5) - directories exported to NFS clients
+#
+# Example for NFSv3:
+#  /srv/home        hostname1(rw,sync) hostname2(ro,sync)
+# Example for NFSv4:
+#  /srv/nfs4	    hostname1(rw,sync,fsid=0)
+#  /srv/nfs4/home   hostname1(rw,sync,nohide)
+# Using Kerberos and integrity checking:
+#  /srv/nfs4        *(rw,sync,sec=krb5i,fsid=0)
+#  /srv/nfs4/home   *(rw,sync,sec=krb5i,nohide)
+#
+# Use `exportfs -arv` to reload.
+#
+# For Linux client
+/mnt/hdd	192.168.31.77(rw,async,no_subtree_check,no_root_squash)
+# For MacOS client
+/mnt/hdd	192.168.31.201(rw,async,insecure,no_subtree_check,all_squash,anonuid=1000)

@@ -1,0 +1,56 @@
+%NAME%
+alsa-utils
+
+%VERSION%
+1.2.9-1
+
+%BASE%
+alsa-utils
+
+%DESC%
+Advanced Linux Sound Architecture - Utilities
+
+%URL%
+https://www.alsa-project.org
+
+%ARCH%
+armv7h
+
+%BUILDDATE%
+1683747055
+
+%INSTALLDATE%
+1691917807
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+xu2@archlinuxarm.org>
+
+%SIZE%
+2325864
+
+%LICENSE%
+GPL2
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+gcc-libs
+glibc
+pciutils
+psmisc
+alsa-lib
+libasound.so=2-32
+libatopology.so=2-32
+ncurses
+libformw.so=6-32
+libmenuw.so=6-32
+libncursesw.so=6-32
+libpanelw.so=6-32
+libsamplerate
+libsamplerate.so=0-32
+
+%OPTDEPENDS%
+bash: for alsa-info.sh and alsabat-test.sh
+fftw: for alsabat
+

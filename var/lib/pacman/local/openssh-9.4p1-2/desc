@@ -1,0 +1,56 @@
+%NAME%
+openssh
+
+%VERSION%
+9.4p1-2
+
+%BASE%
+openssh
+
+%DESC%
+SSH protocol implementation for remote login, command execution and file transfer
+
+%URL%
+https://www.openssh.com/portable.html
+
+%ARCH%
+armv7h
+
+%BUILDDATE%
+1691766251
+
+%INSTALLDATE%
+1691917424
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+xu1@archlinuxarm.org>
+
+%SIZE%
+7689741
+
+%LICENSE%
+custom:BSD
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+glibc
+krb5
+libkrb5.so=3-32
+libgssapi_krb5.so=2-32
+ldns
+libedit
+libxcrypt
+libcrypt.so=2-32
+openssl
+pam
+libpam.so=0-32
+zlib
+
+%OPTDEPENDS%
+libfido2: FIDO/U2F support
+sh: for ssh-copy-id and findssl.sh
+x11-ssh-askpass: input passphrase in X
+xorg-xauth: X11 forwarding
+

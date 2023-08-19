@@ -1,0 +1,293 @@
+[2023-08-13T08:55:29+0000] [PACMAN] Running 'pacman -Syu uboot-cubieboard2'
+[2023-08-13T08:55:29+0000] [PACMAN] synchronizing package lists
+[2023-08-13T08:55:34+0000] [PACMAN] starting full system upgrade
+[2023-08-13T08:57:02+0000] [ALPM] transaction started
+[2023-08-13T08:57:02+0000] [ALPM] installed uboot-cubieboard2 (2017.01-2)
+[2023-08-13T08:57:02+0000] [ALPM-SCRIPTLET] A new U-Boot version needs to be flashed onto /dev/mmcblk0.
+[2023-08-13T08:57:02+0000] [ALPM-SCRIPTLET] Do you want to do this now? [y|N]
+[2023-08-13T08:57:09+0000] [ALPM-SCRIPTLET] 473+1 records in
+[2023-08-13T08:57:09+0000] [ALPM-SCRIPTLET] 473+1 records out
+[2023-08-13T08:57:09+0000] [ALPM-SCRIPTLET] 484375 bytes (484 kB, 473 KiB) copied, 0.0108993 s, 44.4 MB/s
+[2023-08-13T08:57:12+0000] [ALPM] upgraded linux-api-headers (6.1.9-1 -> 6.4-1)
+[2023-08-13T08:57:15+0000] [ALPM] upgraded tzdata (2022g-2 -> 2023c-2)
+[2023-08-13T08:57:15+0000] [ALPM] upgraded iana-etc (20230105-1 -> 20230629-1)
+[2023-08-13T08:57:21+0000] [ALPM] upgraded ncurses (6.4-1 -> 6.4_20230520-1)
+[2023-08-13T08:57:22+0000] [ALPM] upgraded bash (5.1.016-3 -> 5.1.016-4)
+[2023-08-13T08:57:32+0000] [ALPM] upgraded openssl (3.0.8-1 -> 3.1.2-1)
+[2023-08-13T08:57:33+0000] [ALPM] upgraded xz (5.4.1-1 -> 5.4.4-1)
+[2023-08-13T08:57:33+0000] [ALPM] upgraded zlib (1:1.2.13-2 -> 1:1.2.13-3)
+[2023-08-13T08:57:33+0000] [ALPM] upgraded zstd (1.5.4-1 -> 1.5.5-1)
+[2023-08-13T08:57:33+0000] [ALPM] upgraded libarchive (3.6.2-2 -> 3.7.1-1)
+[2023-08-13T08:57:34+0000] [ALPM] upgraded brotli (1.0.9-10 -> 1.0.9-12)
+[2023-08-13T08:57:34+0000] [ALPM] upgraded libnghttp2 (1.52.0-1 -> 1.55.1-1)
+[2023-08-13T08:57:34+0000] [ALPM] upgraded libssh2 (1.10.0-3 -> 1.11.0-1)
+[2023-08-13T08:57:34+0000] [ALPM] upgraded gmp (6.2.1-2 -> 6.3.0-1)
+[2023-08-13T08:57:34+0000] [ALPM] upgraded attr (2.5.1-2 -> 2.5.1-3)
+[2023-08-13T08:57:34+0000] [ALPM] upgraded libcap-ng (0.8.3-1 -> 0.8.3-2)
+[2023-08-13T08:57:35+0000] [ALPM] upgraded keyutils (1.6.3-1 -> 1.6.3-2)
+[2023-08-13T08:57:35+0000] [ALPM] upgraded gdbm (1.23-1 -> 1.23-2)
+[2023-08-13T08:57:36+0000] [ALPM] upgraded libldap (2.6.4-1 -> 2.6.6-1)
+[2023-08-13T08:57:36+0000] [ALPM] upgraded util-linux-libs (2.38.1-1 -> 2.39.1-1)
+[2023-08-13T08:57:37+0000] [ALPM] upgraded audit (3.1-1 -> 3.1.2-1)
+[2023-08-13T08:57:37+0000] [ALPM] upgraded libxcrypt (4.4.33-1 -> 4.4.36-1)
+[2023-08-13T08:57:38+0000] [ALPM] upgraded pam (1.5.2-1 -> 1.5.3-3)
+[2023-08-13T08:57:38+0000] [ALPM] upgraded libcap (2.67-1 -> 2.69-1)
+[2023-08-13T08:57:41+0000] [ALPM] upgraded coreutils (9.1-3 -> 9.3-1)
+[2023-08-13T08:57:41+0000] [ALPM] upgraded findutils (4.9.0-2 -> 4.9.0-3)
+[2023-08-13T08:57:41+0000] [ALPM] upgraded libgpg-error (1.46-2 -> 1.47-1)
+[2023-08-13T08:57:41+0000] [ALPM] upgraded libgcrypt (1.10.1-2 -> 1.10.2-1)
+[2023-08-13T08:57:44+0000] [ALPM] upgraded systemd-libs (253-1 -> 254.1-1)
+[2023-08-13T08:57:44+0000] [ALPM] upgraded libp11-kit (0.24.1-1 -> 0.25.0-1)
+[2023-08-13T08:57:45+0000] [ALPM] upgraded p11-kit (0.24.1-1 -> 0.25.0-1)
+[2023-08-13T08:57:45+0000] [ALPM] upgraded ca-certificates-mozilla (3.88-1 -> 3.92-1)
+[2023-08-13T08:57:46+0000] [ALPM] upgraded curl (7.88.1-3 -> 8.2.1-1)
+[2023-08-13T08:57:46+0000] [ALPM] upgraded libksba (1.6.3-1 -> 1.6.4-1)
+[2023-08-13T08:57:46+0000] [ALPM] upgraded libassuan (2.5.5-1 -> 2.5.6-1)
+[2023-08-13T08:57:46+0000] [ALPM] upgraded npth (1.6-3 -> 1.6-4)
+[2023-08-13T08:57:47+0000] [ALPM] upgraded sqlite (3.41.0-1 -> 3.42.0-1)
+[2023-08-13T08:57:48+0000] [ALPM] upgraded nettle (3.8.1-1 -> 3.9.1-1)
+[2023-08-13T08:57:48+0000] [ALPM] upgraded libsysprof-capture (3.46.0-4 -> 3.48.0-4)
+[2023-08-13T08:57:51+0000] [ALPM] upgraded glib2 (2.74.6-1 -> 2.76.4-1)
+[2023-08-13T08:57:52+0000] [ALPM] upgraded tpm2-tss (3.2.0-3 -> 4.0.1-1)
+[2023-08-13T08:57:54+0000] [ALPM] upgraded gnupg (2.2.40-1 -> 2.2.41-1)
+[2023-08-13T08:57:54+0000] [ALPM] upgraded gpgme (1.18.0-2 -> 1.21.0-1)
+[2023-08-13T08:58:01+0000] [ALPM] upgraded icu (72.1-2 -> 73.2-2)
+[2023-08-13T08:58:01+0000] [ALPM] upgraded libxml2 (2.10.3-2 -> 2.11.5-1)
+[2023-08-13T08:58:02+0000] [ALPM] upgraded gettext (0.21.1-2 -> 0.22-1)
+[2023-08-13T08:58:03+0000] [ALPM] upgraded mpfr (4.2.0-3 -> 4.2.0.p12-3)
+[2023-08-13T08:58:03+0000] [ALPM] upgraded gawk (5.2.1-1 -> 5.2.2-1)
+[2023-08-13T08:58:03+0000] [ALPM] upgraded grep (3.8-3 -> 3.11-1)
+[2023-08-13T08:58:06+0000] [ALPM] upgraded pacman (6.0.2-5 -> 6.0.2-7)
+[2023-08-13T08:58:06+0000] [ALPM] upgraded archlinux-keyring (20230225-1 -> 20230704-1)
+[2023-08-13T08:58:06+0000] [ALPM-SCRIPTLET] gpg: WARNING: server 'gpg-agent' is older than us (2.2.40 < 2.2.41)
+[2023-08-13T08:58:06+0000] [ALPM-SCRIPTLET] gpg: Note: Outdated servers may lack important security fixes.
+[2023-08-13T08:58:06+0000] [ALPM-SCRIPTLET] gpg: Note: Use the command "gpgconf --kill all" to restart them.
+[2023-08-13T08:58:07+0000] [ALPM-SCRIPTLET] ==> Appending keys from archlinux.gpg...
+[2023-08-13T08:58:07+0000] [ALPM-SCRIPTLET] gpg: WARNING: server 'gpg-agent' is older than us (2.2.40 < 2.2.41)
+[2023-08-13T08:59:26+0000] [ALPM-SCRIPTLET] gpg: WARNING: server 'gpg-agent' is older than us (2.2.40 < 2.2.41)
+[2023-08-13T08:59:26+0000] [ALPM-SCRIPTLET] gpg: WARNING: server 'gpg-agent' is older than us (2.2.40 < 2.2.41)
+[2023-08-13T08:59:27+0000] [ALPM-SCRIPTLET] gpg: WARNING: server 'gpg-agent' is older than us (2.2.40 < 2.2.41)
+[2023-08-13T08:59:27+0000] [ALPM-SCRIPTLET] gpg: WARNING: server 'gpg-agent' is older than us (2.2.40 < 2.2.41)
+[2023-08-13T08:59:27+0000] [ALPM-SCRIPTLET] gpg: WARNING: server 'gpg-agent' is older than us (2.2.40 < 2.2.41)
+[2023-08-13T08:59:30+0000] [ALPM-SCRIPTLET] ==> Locally signing trusted keys in keyring...
+[2023-08-13T09:01:12+0000] [ALPM-SCRIPTLET]   -> Locally signed 5 keys.
+[2023-08-13T09:01:12+0000] [ALPM-SCRIPTLET] ==> Importing owner trust values...
+[2023-08-13T09:01:12+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2023-08-13T09:01:12+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2023-08-13T09:01:12+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2023-08-13T09:01:12+0000] [ALPM-SCRIPTLET] gpg: inserting ownertrust of 4
+[2023-08-13T09:01:12+0000] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2023-08-13T09:01:12+0000] [ALPM-SCRIPTLET] ==> Disabling revoked keys in keyring...
+[2023-08-13T09:01:16+0000] [ALPM-SCRIPTLET]   -> Disabled 36 keys.
+[2023-08-13T09:01:16+0000] [ALPM-SCRIPTLET] ==> Updating trust database...
+[2023-08-13T09:01:39+0000] [ALPM-SCRIPTLET] gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+[2023-08-13T09:01:40+0000] [ALPM-SCRIPTLET] gpg: depth: 0  valid:   1  signed:   8  trust: 0-, 0q, 0n, 0m, 0f, 1u
+[2023-08-13T09:01:40+0000] [ALPM-SCRIPTLET] gpg: depth: 1  valid:   8  signed:  96  trust: 0-, 0q, 0n, 8m, 0f, 0u
+[2023-08-13T09:01:40+0000] [ALPM-SCRIPTLET] gpg: depth: 2  valid:  74  signed:  27  trust: 74-, 0q, 0n, 0m, 0f, 0u
+[2023-08-13T09:01:40+0000] [ALPM-SCRIPTLET] gpg: next trustdb check due at 2023-10-27
+[2023-08-13T09:01:41+0000] [ALPM-SCRIPTLET] ==> Updating trust database...
+[2023-08-13T09:01:41+0000] [ALPM-SCRIPTLET] gpg: next trustdb check due at 2023-10-27
+[2023-08-13T09:01:41+0000] [ALPM] upgraded argon2 (20190702-4 -> 20190702-5)
+[2023-08-13T09:01:41+0000] [ALPM] upgraded device-mapper (2.03.19-1 -> 2.03.22-1)
+[2023-08-13T09:01:41+0000] [ALPM] upgraded cryptsetup (2.6.1-1 -> 2.6.1-3)
+[2023-08-13T09:01:42+0000] [ALPM] upgraded dbus (1.14.6-1 -> 1.14.8-1)
+[2023-08-13T09:01:42+0000] [ALPM] upgraded dhcpcd (9.4.1-1 -> 10.0.2-1)
+[2023-08-13T09:01:42+0000] [ALPM] upgraded diffutils (3.9-1 -> 3.10-1)
+[2023-08-13T09:01:43+0000] [ALPM] upgraded hwdata (0.367-1 -> 0.372-1)
+[2023-08-13T09:01:43+0000] [ALPM] upgraded libelf (0.188-3 -> 0.189-3)
+[2023-08-13T09:01:43+0000] [ALPM] upgraded libbpf (1.0.1-1 -> 1.2.2-1)
+[2023-08-13T09:01:44+0000] [ALPM] upgraded libnftnl (1.2.4-1 -> 1.2.5-1)
+[2023-08-13T09:01:44+0000] [ALPM] upgraded libpcap (1.10.3-1 -> 1.10.4-1)
+[2023-08-13T09:01:45+0000] [ALPM] upgraded iproute2 (6.2.0-2 -> 6.4.0-1)
+[2023-08-13T09:01:45+0000] [ALPM] upgraded iputils (20221126-1 -> 20221126-2)
+[2023-08-13T09:01:47+0000] [ALPM] upgraded kbd (2.5.1-1 -> 2.6.1-1)
+[2023-08-13T09:01:47+0000] [ALPM] upgraded less (1:608-2 -> 1:633-1)
+[2023-08-13T09:01:47+0000] [ALPM] upgraded libedit (20210910_3.1-2 -> 20221030_3.1-1)
+[2023-08-13T09:01:47+0000] [ALPM] upgraded libseccomp (2.5.4-1 -> 2.5.4-2)
+[2023-08-13T09:01:47+0000] [ALPM] upgraded licenses (20220125-1 -> 20230729-1)
+[2023-08-13T09:01:47+0000] [ALPM] upgraded linux-firmware-whence (20230210.bf4115c-1 -> 20230804.7be2766d-2)
+[2023-08-13T09:03:00+0000] [ALPM] upgraded linux-firmware (20230210.bf4115c-1 -> 20230804.7be2766d-2)
+[2023-08-13T09:03:00+0000] [ALPM] upgraded mkinitcpio-busybox (1.35.0-1 -> 1.36.1-1)
+[2023-08-13T09:03:00+0000] [ALPM] installed libutempter (1.2.1-3)
+[2023-08-13T09:03:03+0000] [ALPM] upgraded util-linux (2.38.1-1 -> 2.39.1-1)
+[2023-08-13T09:03:03+0000] [ALPM] warning: directory permissions differ on /etc/credstore/
+filesystem: 0  package: 700
+[2023-08-13T09:03:03+0000] [ALPM] warning: directory permissions differ on /etc/credstore.encrypted/
+filesystem: 0  package: 700
+[2023-08-13T09:03:10+0000] [ALPM] upgraded systemd (253-1 -> 254.1-1)
+[2023-08-13T09:03:12+0000] [ALPM-SCRIPTLET] Creating group 'systemd-journal-upload' with GID 973.
+[2023-08-13T09:03:12+0000] [ALPM-SCRIPTLET] Creating user 'systemd-journal-upload' (systemd Journal Upload) with UID 973 and GID 973.
+[2023-08-13T09:03:18+0000] [ALPM] upgraded mkinitcpio (34-2 -> 36-1)
+[2023-08-13T09:03:42+0000] [ALPM] upgraded linux-armv7 (6.2.1-1 -> 6.2.10-1)
+[2023-08-13T09:03:42+0000] [ALPM] upgraded openresolv (3.12.0-1 -> 3.13.2-1)
+[2023-08-13T09:03:44+0000] [ALPM] upgraded openssh (9.2p1-1 -> 9.4p1-2)
+[2023-08-13T09:03:44+0000] [ALPM] upgraded pciutils (3.9.0-2 -> 3.10.0-1)
+[2023-08-13T09:03:44+0000] [ALPM] upgraded procps-ng (3.3.17-1 -> 4.0.3-1)
+[2023-08-13T09:03:45+0000] [ALPM] upgraded sed (4.9-2 -> 4.9-3)
+[2023-08-13T09:03:45+0000] [ALPM] upgraded systemd-sysvcompat (253-1 -> 254.1-1)
+[2023-08-13T09:03:45+0000] [ALPM] upgraded tar (1.34-1 -> 1.35-1)
+[2023-08-13T09:03:46+0000] [ALPM] transaction completed
+[2023-08-13T09:03:47+0000] [ALPM] running '20-systemd-sysusers.hook'...
+[2023-08-13T09:03:47+0000] [ALPM] running '30-systemd-catalog.hook'...
+[2023-08-13T09:03:47+0000] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2023-08-13T09:03:51+0000] [ALPM] running '30-systemd-hwdb.hook'...
+[2023-08-13T09:03:57+0000] [ALPM] running '30-systemd-sysctl.hook'...
+[2023-08-13T09:03:57+0000] [ALPM] running '30-systemd-tmpfiles.hook'...
+[2023-08-13T09:03:57+0000] [ALPM] running '30-systemd-udev-reload.hook'...
+[2023-08-13T09:04:01+0000] [ALPM] running '30-systemd-update.hook'...
+[2023-08-13T09:04:01+0000] [ALPM] running '40-update-ca-trust.hook'...
+[2023-08-13T09:04:12+0000] [ALPM] running '60-depmod.hook'...
+[2023-08-13T09:04:21+0000] [ALPM] running '60-linux-armv7.hook'...
+[2023-08-13T09:04:29+0000] [ALPM] running '90-linux-armv7.hook'...
+[2023-08-13T09:04:29+0000] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux-armv7.preset: 'default'
+[2023-08-13T09:04:29+0000] [ALPM-SCRIPTLET] ==> Using configuration file: '/etc/mkinitcpio.conf'
+[2023-08-13T09:04:29+0000] [ALPM-SCRIPTLET]   -> -k 6.2.10-1-ARCH -c /etc/mkinitcpio.conf -g /boot/initramfs-linux.img
+[2023-08-13T09:04:33+0000] [ALPM-SCRIPTLET] ==> Starting build: '6.2.10-1-ARCH'
+[2023-08-13T09:04:34+0000] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2023-08-13T09:04:37+0000] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2023-08-13T09:04:39+0000] [ALPM-SCRIPTLET]   -> Running build hook: [autodetect]
+[2023-08-13T09:04:40+0000] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2023-08-13T09:04:40+0000] [ALPM-SCRIPTLET]   -> Running build hook: [kms]
+[2023-08-13T09:04:41+0000] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2023-08-13T09:04:42+0000] [ALPM-SCRIPTLET]   -> Running build hook: [keymap]
+[2023-08-13T09:04:42+0000] [ALPM-SCRIPTLET]   -> Running build hook: [consolefont]
+[2023-08-13T09:04:42+0000] [ALPM-SCRIPTLET] ==> WARNING: consolefont: no font found in configuration
+[2023-08-13T09:04:42+0000] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2023-08-13T09:04:45+0000] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2023-08-13T09:04:45+0000] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2023-08-13T09:04:46+0000] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2023-08-13T09:04:46+0000] [ALPM-SCRIPTLET] ==> Creating gzip-compressed initcpio image: '/boot/initramfs-linux.img'
+[2023-08-13T09:04:57+0000] [ALPM-SCRIPTLET] ==> Image generation successful
+[2023-08-13T09:04:57+0000] [ALPM] running '90-mkinitcpio-install.hook'...
+[2023-08-13T09:04:57+0000] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux-armv7.preset: 'default'
+[2023-08-13T09:04:57+0000] [ALPM-SCRIPTLET] ==> Using configuration file: '/etc/mkinitcpio.conf'
+[2023-08-13T09:04:57+0000] [ALPM-SCRIPTLET]   -> -k 6.2.10-1-ARCH -c /etc/mkinitcpio.conf -g /boot/initramfs-linux.img
+[2023-08-13T09:05:00+0000] [ALPM-SCRIPTLET] ==> Starting build: '6.2.10-1-ARCH'
+[2023-08-13T09:05:02+0000] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2023-08-13T09:05:04+0000] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2023-08-13T09:05:07+0000] [ALPM-SCRIPTLET]   -> Running build hook: [autodetect]
+[2023-08-13T09:05:08+0000] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2023-08-13T09:05:08+0000] [ALPM-SCRIPTLET]   -> Running build hook: [kms]
+[2023-08-13T09:05:09+0000] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2023-08-13T09:05:10+0000] [ALPM-SCRIPTLET]   -> Running build hook: [keymap]
+[2023-08-13T09:05:10+0000] [ALPM-SCRIPTLET]   -> Running build hook: [consolefont]
+[2023-08-13T09:05:10+0000] [ALPM-SCRIPTLET] ==> WARNING: consolefont: no font found in configuration
+[2023-08-13T09:05:10+0000] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2023-08-13T09:05:13+0000] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2023-08-13T09:05:13+0000] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2023-08-13T09:05:13+0000] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2023-08-13T09:05:14+0000] [ALPM-SCRIPTLET] ==> Creating gzip-compressed initcpio image: '/boot/initramfs-linux.img'
+[2023-08-13T09:05:24+0000] [ALPM-SCRIPTLET] ==> Image generation successful
+[2023-08-13T09:05:24+0000] [ALPM] running 'dbus-reload.hook'...
+[2023-08-13T17:09:55+0800] [PACMAN] Running 'pacman -S alsa-utils'
+[2023-08-13T17:10:05+0800] [ALPM] transaction started
+[2023-08-13T17:10:05+0800] [ALPM] installed alsa-topology-conf (1.2.5.1-3)
+[2023-08-13T17:10:06+0800] [ALPM] installed alsa-ucm-conf (1.2.9-1)
+[2023-08-13T17:10:06+0800] [ALPM] installed alsa-lib (1.2.9-1)
+[2023-08-13T17:10:07+0800] [ALPM] installed libsamplerate (0.2.2-2)
+[2023-08-13T17:10:07+0800] [ALPM] installed alsa-utils (1.2.9-1)
+[2023-08-13T17:10:07+0800] [ALPM] transaction completed
+[2023-08-13T17:10:07+0800] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2023-08-13T17:10:11+0800] [ALPM] running '30-systemd-udev-reload.hook'...
+[2023-08-13T17:10:14+0800] [ALPM] running '30-systemd-update.hook'...
+[2023-08-13T17:11:22+0800] [PACMAN] Running 'pacman -S vim'
+[2023-08-13T17:11:33+0800] [ALPM] transaction started
+[2023-08-13T17:11:39+0800] [ALPM] installed vim-runtime (9.0.1678-1)
+[2023-08-13T17:11:40+0800] [ALPM] installed gpm (1.20.7.r38.ge82d1a6-5)
+[2023-08-13T17:11:41+0800] [ALPM] installed db5.3 (5.3.28-2)
+[2023-08-13T17:11:41+0800] [ALPM] installed db (6.2.32-1)
+[2023-08-13T17:11:53+0800] [ALPM] installed perl (5.38.0-1)
+[2023-08-13T17:11:54+0800] [ALPM] installed vim (9.0.1678-1)
+[2023-08-13T17:11:54+0800] [ALPM] transaction completed
+[2023-08-13T17:11:54+0800] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2023-08-13T17:11:58+0800] [ALPM] running '30-systemd-update.hook'...
+[2023-08-13T17:11:58+0800] [ALPM] running 'detect-old-perl-modules.hook'...
+[2023-08-13T17:38:28+0800] [PACMAN] Running 'pacman -S sudo'
+[2023-08-13T17:38:32+0800] [ALPM] transaction started
+[2023-08-13T17:38:33+0800] [ALPM] installed sudo (1.9.14.p3-1)
+[2023-08-13T17:38:33+0800] [ALPM] transaction completed
+[2023-08-13T17:38:33+0800] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2023-08-13T17:38:37+0800] [ALPM] running '30-systemd-tmpfiles.hook'...
+[2023-08-13T17:38:38+0800] [ALPM] running '30-systemd-update.hook'...
+[2023-08-13T18:34:15+0800] [PACMAN] Running 'pacman -Syu'
+[2023-08-13T18:34:15+0800] [PACMAN] synchronizing package lists
+[2023-08-13T18:34:16+0800] [PACMAN] starting full system upgrade
+[2023-08-13T20:58:14+0800] [PACMAN] Running 'pacman -S man'
+[2023-08-13T20:58:28+0800] [ALPM] transaction started
+[2023-08-13T20:58:29+0800] [ALPM] installed groff (1.23.0-3)
+[2023-08-13T20:58:30+0800] [ALPM] installed libpipeline (1.5.7-1)
+[2023-08-13T20:58:30+0800] [ALPM] installed man-db (2.11.2-1)
+[2023-08-13T20:58:31+0800] [ALPM] transaction completed
+[2023-08-13T20:58:31+0800] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2023-08-13T20:58:35+0800] [ALPM] running '30-systemd-tmpfiles.hook'...
+[2023-08-13T20:58:35+0800] [ALPM] running '30-systemd-update.hook'...
+[2023-08-13T21:44:30+0800] [PACMAN] Running 'pacman -Syu base-devel'
+[2023-08-13T21:44:30+0800] [PACMAN] synchronizing package lists
+[2023-08-13T21:44:31+0800] [PACMAN] starting full system upgrade
+[2023-08-13T21:44:56+0800] [ALPM] transaction started
+[2023-08-13T21:44:56+0800] [ALPM] installed m4 (1.4.19-3)
+[2023-08-13T21:44:57+0800] [ALPM] installed autoconf (2.71-4)
+[2023-08-13T21:44:57+0800] [ALPM] installed automake (1.16.5-2)
+[2023-08-13T21:44:57+0800] [ALPM] installed bison (3.8.2-6)
+[2023-08-13T21:44:57+0800] [ALPM] installed debugedit (5.0-5)
+[2023-08-13T21:44:58+0800] [ALPM] installed fakeroot (1.32.1-1)
+[2023-08-13T21:44:58+0800] [ALPM] installed flex (2.6.4-5)
+[2023-08-13T21:44:58+0800] [ALPM] installed libmpc (1.3.1-1)
+[2023-08-13T21:44:59+0800] [ALPM] installed libisl (0.26-1)
+[2023-08-13T21:45:18+0800] [ALPM] installed gcc (12.1.0-2.1)
+[2023-08-13T21:45:18+0800] [ALPM] installed libtool (2.4.7-2)
+[2023-08-13T21:45:18+0800] [ALPM] installed gc (8.2.4-1)
+[2023-08-13T21:45:24+0800] [ALPM] installed guile (3.0.9-1)
+[2023-08-13T21:45:25+0800] [ALPM] installed make (4.4.1-2)
+[2023-08-13T21:45:25+0800] [ALPM] installed patch (2.7.6-10)
+[2023-08-13T21:45:25+0800] [ALPM] installed pkgconf (1.8.1-1)
+[2023-08-13T21:45:26+0800] [ALPM] installed texinfo (7.0.3-1)
+[2023-08-13T21:45:26+0800] [ALPM] installed base-devel (1-1)
+[2023-08-13T21:45:28+0800] [ALPM] transaction completed
+[2023-08-13T21:45:28+0800] [ALPM] running '30-systemd-update.hook'...
+[2023-08-13T21:45:29+0800] [ALPM] running 'texinfo-install.hook'...
+[2023-08-13T21:57:00+0800] [PACMAN] Running 'pacman -S nfs-utils'
+[2023-08-13T21:57:07+0800] [ALPM] transaction started
+[2023-08-13T21:57:07+0800] [ALPM] installed rpcbind (1.2.6-3)
+[2023-08-13T21:57:07+0800] [ALPM] installed nfsidmap (2.6.3-1)
+[2023-08-13T21:57:07+0800] [ALPM] installed ding-libs (0.6.2-1)
+[2023-08-13T21:57:08+0800] [ALPM] installed gssproxy (0.9.1-2)
+[2023-08-13T21:57:08+0800] [ALPM] installed nfs-utils (2.6.3-1)
+[2023-08-13T21:57:08+0800] [ALPM] transaction completed
+[2023-08-13T21:57:08+0800] [ALPM] running '20-systemd-sysusers.hook'...
+[2023-08-13T21:57:08+0800] [ALPM-SCRIPTLET] Creating group 'rpc' with GID 32.
+[2023-08-13T21:57:08+0800] [ALPM-SCRIPTLET] Creating user 'rpc' (Rpcbind Daemon) with UID 32 and GID 32.
+[2023-08-13T21:57:08+0800] [ALPM-SCRIPTLET] Creating group 'rpcuser' with GID 34.
+[2023-08-13T21:57:08+0800] [ALPM-SCRIPTLET] Creating user 'rpcuser' (RPC Service User) with UID 34 and GID 34.
+[2023-08-13T21:57:08+0800] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2023-08-13T21:57:12+0800] [ALPM] running '30-systemd-tmpfiles.hook'...
+[2023-08-13T21:57:13+0800] [ALPM] running '30-systemd-udev-reload.hook'...
+[2023-08-13T21:57:16+0800] [ALPM] running '30-systemd-update.hook'...
+[2023-08-14T21:33:08+0800] [PACMAN] Running 'pacman -S tmux'
+[2023-08-14T21:33:14+0800] [ALPM] transaction started
+[2023-08-14T21:33:14+0800] [ALPM] installed tmux (3.3_a-7)
+[2023-08-14T21:33:14+0800] [ALPM] transaction completed
+[2023-08-14T21:33:14+0800] [ALPM] running '30-systemd-update.hook'...
+[2023-08-14T21:44:43+0800] [PACMAN] Running 'pacman -Syu rsync'
+[2023-08-14T21:44:43+0800] [PACMAN] synchronizing package lists
+[2023-08-14T21:44:48+0800] [PACMAN] starting full system upgrade
+[2023-08-14T21:45:03+0800] [ALPM] transaction started
+[2023-08-14T21:45:03+0800] [ALPM] installed xxhash (0.8.2-1)
+[2023-08-14T21:45:03+0800] [ALPM] installed rsync (3.2.7-4)
+[2023-08-14T21:45:03+0800] [ALPM] upgraded file (5.44-3 -> 5.45-1)
+[2023-08-14T21:45:04+0800] [ALPM] upgraded libnftnl (1.2.5-1 -> 1.2.6-1)
+[2023-08-14T21:45:04+0800] [ALPM] transaction completed
+[2023-08-14T21:45:04+0800] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2023-08-14T21:45:08+0800] [ALPM] running '30-systemd-update.hook'...
+[2023-08-14T22:04:38+0800] [PACMAN] Running 'pacman -S aria2'
+[2023-08-14T22:04:47+0800] [ALPM] transaction started
+[2023-08-14T22:04:47+0800] [ALPM] installed c-ares (1.19.1-1)
+[2023-08-14T22:04:48+0800] [ALPM] installed aria2 (1.36.0-1)
+[2023-08-14T22:04:48+0800] [ALPM] transaction completed
+[2023-08-14T22:04:48+0800] [ALPM] running '30-systemd-update.hook'...
+[2023-08-14T22:04:55+0800] [PACMAN] Running 'pacman -S wget'
+[2023-08-14T22:05:01+0800] [ALPM] transaction started
+[2023-08-14T22:05:01+0800] [ALPM] installed wget (1.21.4-1)
+[2023-08-14T22:05:02+0800] [ALPM] transaction completed
+[2023-08-14T22:05:02+0800] [ALPM] running '30-systemd-update.hook'...
+[2023-08-14T22:05:02+0800] [ALPM] running 'texinfo-install.hook'...

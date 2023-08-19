@@ -1,0 +1,4 @@
+2023-08-15 11:57:21.693337 [ERROR] [DHTSetup.cc:106] Exception caught while loading DHT routing table from /home/jazzi/.cache/aria2/dht.dat
+Exception: [DHTRoutingTableDeserializer.cc:82] errorCode=1 Failed to load DHT routing table from /home/jazzi/.cache/aria2/dht.dat
+2023-08-15 22:53:55.272468 [ERROR] [DHTSetup.cc:106] Exception caught while loading DHT routing table from /home/jazzi/.cache/aria2/dht.dat
+Exception: [DHTRoutingTableDeserializer.cc:82] errorCode=1 Failed to load DHT routing table from /home/jazzi/.cache/aria2/dht.dat

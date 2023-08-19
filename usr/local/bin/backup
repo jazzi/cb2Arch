@@ -1,0 +1,9 @@
+#!/bin/bash
+
+## backup the full system to /mnt/hdd/.backup, run it whenever a backup needed
+## if you wish to restore a backup, use the _same_ rsync command 
+## but with the source and destination reversed.
+##
+## be sure to run the rsync command as root 
+#
+rsync -aAXH --info=progress2 --delete --exclude={"/dev/*","/proc/*","/sys/*","/tmp/*","/run/*","/mnt/*","/media/*","/lost+found"} / /mnt/hdd/.backup

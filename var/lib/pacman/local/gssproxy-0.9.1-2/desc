@@ -1,0 +1,45 @@
+%NAME%
+gssproxy
+
+%VERSION%
+0.9.1-2
+
+%BASE%
+gssproxy
+
+%DESC%
+GSSAPI Proxy
+
+%URL%
+https://github.com/gssapi/gssproxy
+
+%ARCH%
+armv7h
+
+%BUILDDATE%
+1654779767
+
+%INSTALLDATE%
+1691935028
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+xu0@archlinuxarm.org>
+
+%SIZE%
+222169
+
+%REASON%
+1
+
+%LICENSE%
+custom: MIT
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+libverto-module-base
+popt
+ding-libs
+systemd-libs
+

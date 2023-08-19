@@ -1,0 +1,11 @@
+%FILES%
+boot/
+boot/boot.scr
+boot/boot.txt
+boot/mkscr
+boot/u-boot-sunxi-with-spl.bin
+
+%BACKUP%
+boot/boot.txt	95f60c0ae1315e986d8a2aee15d5f854
+boot/boot.scr	671814d76061a65ce0bb2dc6a4a0847d
+

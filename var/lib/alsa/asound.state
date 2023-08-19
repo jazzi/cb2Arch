@@ -1,0 +1,204 @@
+state.sun4icodec {
+	control.1 {
+		iface MIXER
+		name 'Power Amplifier Volume'
+		value 62
+		comment {
+			access 'read write'
+			type INTEGER
+			count 1
+			range '0 - 63'
+			dbmin -9999999
+			dbmax 0
+			dbvalue.0 -100
+		}
+	}
+	control.2 {
+		iface MIXER
+		name 'Line Playback Volume'
+		value 1
+		comment {
+			access 'read write'
+			type INTEGER
+			count 1
+			range '0 - 1'
+			dbmin -150
+			dbmax 0
+			dbvalue.0 0
+		}
+	}
+	control.3 {
+		iface MIXER
+		name 'Line Boost Volume'
+		value 5
+		comment {
+			access 'read write'
+			type INTEGER
+			count 1
+			range '0 - 7'
+			dbmin -1200
+			dbmax 900
+			dbvalue.0 300
+		}
+	}
+	control.4 {
+		iface MIXER
+		name 'FM Playback Volume'
+		value 3
+		comment {
+			access 'read write'
+			type INTEGER
+			count 1
+			range '0 - 3'
+			dbmin -450
+			dbmax 0
+			dbvalue.0 0
+		}
+	}
+	control.5 {
+		iface MIXER
+		name 'Mic Playback Volume'
+		value 3
+		comment {
+			access 'read write'
+			type INTEGER
+			count 1
+			range '0 - 7'
+			dbmin -450
+			dbmax 600
+			dbvalue.0 0
+		}
+	}
+	control.6 {
+		iface MIXER
+		name 'Mic1 Boost Volume'
+		value 4
+		comment {
+			access 'read write'
+			type INTEGER
+			count 1
+			range '0 - 7'
+			dbmin 0
+			dbmax 4200
+			dbvalue.0 3300
+		}
+	}
+	control.7 {
+		iface MIXER
+		name 'Mic2 Boost Volume'
+		value 4
+		comment {
+			access 'read write'
+			type INTEGER
+			count 1
+			range '0 - 7'
+			dbmin 0
+			dbmax 4200
+			dbvalue.0 3300
+		}
+	}
+	control.8 {
+		iface MIXER
+		name 'Left Mixer Left DAC Playback Switch'
+		value true
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.9 {
+		iface MIXER
+		name 'Line Playback Switch'
+		value.0 true
+		value.1 true
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 2
+		}
+	}
+	control.10 {
+		iface MIXER
+		name 'FM Playback Switch'
+		value.0 true
+		value.1 true
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 2
+		}
+	}
+	control.11 {
+		iface MIXER
+		name 'Mic1 Playback Switch'
+		value.0 true
+		value.1 true
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 2
+		}
+	}
+	control.12 {
+		iface MIXER
+		name 'Mic2 Playback Switch'
+		value.0 true
+		value.1 true
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 2
+		}
+	}
+	control.13 {
+		iface MIXER
+		name 'Right Mixer Right DAC Playback Switch'
+		value true
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.14 {
+		iface MIXER
+		name 'Right Mixer Left DAC Playback Switch'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.15 {
+		iface MIXER
+		name 'Power Amplifier DAC Playback Switch'
+		value true
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.16 {
+		iface MIXER
+		name 'Power Amplifier Mixer Playback Switch'
+		value true
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.17 {
+		iface MIXER
+		name 'Power Amplifier Mute Switch'
+		value true
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+}
